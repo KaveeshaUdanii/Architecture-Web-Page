@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--top bar section-->
+    <div class="top-bar-main-outer">
+        <div class="top-bar-left top-bar-inner">
+            <a><img class="image" src="https://capp.nicepage.com/e8bce83b27c64cf6f827b4ac290c3d295b0023b7/images/default-logo.png"></a>
+        </div>
+        <div class="top-bar-left top-bar-inner">
+            <div class="icon">
+                <a class="icon1"> <i class="fa-solid fa-align-justify"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!--top bar section-->
+
+    <!--second bar section-->
+    <div class="second-bar-main-outer">
+        <div class="ani1">
+            <img class="img1" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/f88ee1a92b2b5601be13438f/fggf-min.jpg">
+        </div>
+        <div class="ani2">
+            <img class="img2" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/a6869be0560d5d37b34ce6b6/plain-concrete-structure-city-with-copy-space_23-2148814198.jpg">
+        </div>
+        <div class="ani3">
+            <img class="img3" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/7e8ec792536e5738a48d8c9e/low-angle-building-city_23-2148814160.jpg">
+        </div>
+        <div class="info1">
+            <div class="fboxx">
+                <div class="s1">
+                    <font>WHAT WE DO</font>
+                </div>
+                <div class="s2">
+                    <font >Integrated design practice of architecture, landscape, interiors
+                    </font>
+                </div>
+                <div class="s3">
+                    <font>Image from</font>
+                    <a href="http://www.freepik.com">Freepik</a>
+                </div>
+                <div class="s4">
+                    <input class="in" type="button" value="Learn more">
+                </div>
+            </div>
+        </div>
+        <div class="second-box1 second">
+            <div class="wbox"></div>
+        </div>
+        <div class="second-box2 second">
+            <div class="ybox"></div>
+        </div>
+    </div>
+    <!--second bar section-->
+
+    <!--third bar section-->
+    <div class="my-description1" >
+        <div class="description1">
+            <h2>Architecture & Interior Design</h2>
+        </div>
+    </div>
+    <!--third bar section-->
+    <!--fourth bar section-->
+   <div class="my-description2"><center>
+        <div class="descriptionn2">
+            <small>Sample text. Click to select the text box. Click again or double click to start editing the text.</small>
+        </div></center>
+    </div>
+    <!--fourth bar section-->
+    <!--blue line-->
+    <div class="blue-box">
+       <!-- <div class="bl-box-1 bbox">
+            <div class="b-box1 box01">
+                <img class=" i1 bimg1" src="data:image/png;base64,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">
+            </div>
+            <div class="Btitle">
+                <font>Architecture</font>
+            </div>
+            <div class="Bdes">
+                <font>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</font>
+            </div>
+        </div>
+        <div class="bl-box-1 bbox ">
+            <div class="b-box2 box01">
+                <img class=" i2 bimg1" src="data:image/png;base64,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">
+            </div>
+            <div class="Btitle">
+                <font>Planning</font>
+            </div>
+            <div class="Bdes">
+                <font>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</font>
+            </div>
+        </div>
+        <div class="bl-box-1 bbox">
+            <div class="b-box3 box01">
+                <img class=" i3 bimg1" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/0b4883016b38557e9c3e0d1b/3587987.png">
+            </div>
+            <div class="Btitle">
+                <font>Urban Design
+                </font>
+            </div>
+            <div class="Bdes">
+                <font>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</font>
+            </div>
+        </div>
+        <div class="bl-box-1 bbox">
+            <div class="b-box4 ">
+                <div class="bouter">
+                    <i class="fa-solid fa-lightbulb"></i>
+                </div>
+                <div class="Btitle">
+                    <font>Research</font>
+                </div>
+                <div class="Bdes">
+                    <font>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</font>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="side1 side">
+            <h4 class="p-1">ABOUT US<br><br></h4>
+            <h1 class="p-2">We work at all scales and in all sectors.<br></h1>
+            <h4 class="p-3">We create transformative cultural, corporate, residential and other spaces that work in synchronicity with their surroundings.</h4>
+        </div>
+        <div class="side2 side">
+            <h4 class="p-1 heading">The future of how we live, work and play
+            <br><br></h4>
+            <h4 class="p-2 prace">Sample text. Click to select the text box. Click again or double click to start editing the text.<br></h4>
+            <br><br><h4 class="p-1 heading">Look toward the future
+            <br><br></h4>
+            <h4 class="p-2 prace">Sample text. Click to select the text box. Click again or double click to start editing the text.
+                <br></h4><br>
+            <input class="l-button" type="button" value="Learn more">
+        </div>
+    </div>
+    <!--blue line-->
+    <!--white1-->
+    <div class="white1">
+        <div class="yellow-line ">
+            <div class="yellow-boxx"></div>
+        </div>
+        <div class="pic">
+            <img class="img4" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/1db9dd43ac46521dae1bdfc7/j.jpg">
+        </div>
+        <div class="info-3">
+            <div class="dboxx">
+                <div class="d1">
+                    <font>Who are the best 100 architecture firms in the world?</font>
+                </div>
+                <div class="d2">
+                    <font>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </font>
+                </div>
+                <div class="d3">
+                    <font>Image from</font><br><br>
+                    <a href="http://www.freepik.com">Freepik</a>
+                </div><br>
+                <div class="d4">
+                    <input class="in" type="button" value="Learn more">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--white1-->
+
+    <!--about company-->
+    <div class="about">
+        <div class="image-1">
+            <img class="image1" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ff91fc9797935367873bd830/hghg.jpg">
+        </div>
+        <div class="box">
+            <div class="box1"></div>
+        </div>
+        <div class="box">
+            <div class="box2">
+                <div class="titleText">
+                    <div class="title">About Company</div>
+                </div>
+                <div class="bodyText">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.<br><br>Image from
+                    <a href="https://www.freepik.com/photos/engineering-design">Freepik</a>
+                    </p>
+                </div><br><br>
+                <div class="button"><center>
+                    <div class="inp">
+                        <input type="button" value="read more"></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about company-->
+
+    <!--white2-->
+    <div class="white2 ">
+        <div class="sbox  ">
+            <img class="img5" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/1a00cda2674b50cbac753132/crop-architect-opening-blueprint-min.jpg">
+        </div>
+        <div class="sbox1">
+            <img class="img6" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/324064f70c2457b4bc4f33d2/hg.jpg">
+        </div>
+        <div class="sbox2">
+            <img class="img7" src="https://img.freepik.com/free-photo/employee-enjoying-coffee-while-working_1163-585.jpg?w=360&t=st=1659899763~exp=1659900363~hmac=02924a27d144777f4278d3a1d2e8dc8a129184b5423ef302fc69d2d228ac9159">
+        </div>
+        <div class="info">
+        <div class="wboxx">
+            <div class="p1">
+                <img class="img8" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/0b4883016b38557e9c3e0d1b/3587987.png">
+            </div>
+            <div class="p2">
+                <font>We create embedded architecture</font>
+            </div>
+            <div class="p3">
+                <font>Paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien.
+                </font>
+            </div>
+            <div class="p4">
+                <font>Image from</font>
+                <a href="http://www.freepik.com">Freepik</a>
+            </div>
+            <div class="p5">
+                <input class="in" type="button" value="Learn more">
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--white2-->
+
+    <!--yellow1-->
+    <div class="yline"></div>
+    <!--yellow1-->
+
+    <!--white3-->
+    <div class="space1"></div>
+    <!--white3-->
+
+    <!--yellow2-->
+    <div class="yline1">
+        <div class="cutting">
+            <img  class="img9" src="https://img.freepik.com/free-photo/widely-smiling-businesswoman-working-laptop-sitting-cafe_197531-341.jpg?size=626&ext=jpg&ga=GA1.2.1804205613.1659592651">
+        </div>
+        <div class="add">
+            <div class="info4">
+                <div class="mboxx">
+                    <div class="m1">
+                        <font>We believe design should have a positive impact on people's lives and the environment.</font>
+                    </div>
+                    <div class="m2">
+                        <font>Image from</font>
+                        <a href="http://www.freepik.com">Freepik</a>
+                    </div>
+                    <div class="m3">
+                        <input class="in" type="button" value="Learn more">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--yellow2-->
+
+    <!--white4-->
+    <div class="space2">
+        <div class="blue-desc">
+            <div class="blue1">
+                <div class="icon-1">
+                     <i class="fa-solid fa-code-compare"></i>
+                </div>
+            </div>
+            <div class="blue2">
+                <div class="f1">
+                    <font>Success is not final; failure is not fatal: it is the courage to continue that counts</font>
+                </div>
+            </div><br><br>
+            <div class="blue3">
+                <div class="f2">
+                    <font>– Winston Churchill</font>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--white4-->
+    <!--service-->
+    <div class="service">
+        <div class="yellow-box boxx"></div>
+        <div class="white-box boxx"></div>
+        <div class="service-images1">
+            <img class="img-1" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/1a00cda2674b50cbac753132/crop-architect-opening-blueprint-min.jpg">
+        </div>
+        <div class="service-images2">
+            <img class="img-2" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e1ccd83b32ab55ed897bfd43/jkjk-min.jpg">
+        </div>
+        <div class="service-images3">
+            <img class="img-3" src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/324064f70c2457b4bc4f33d2/hg.jpg">
+        </div>
+       <div class="info5">
+            <div class="hboxx">
+                <div class="h1">
+                    <font>WHAT WE DO</font>
+                </div>
+                <div class="h2">
+                    <font >Full service architecture design studio with offices in Brooklyn, New York and Richmond
+                    </font>
+                </div>
+                <div class="h3">
+                    <font>Image from</font>
+                    <a href="http://www.freepik.com">Freepik</a>
+                </div>
+                <div class="h4">
+                    <input class="in" type="button" value="Learn more">
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <!--service-->
+    <!--picture-->
+    <div class="large-picture">
+        <img class="larg-image"  src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/4b1007397082561bb8bddace/asd-min.jpg">
+       <div class="my-form">
+        <center>
+            <div class="form1">
+                <form method="post">
+                    <h2 align="center">Sign Up for Exclusive Offers</h2>
+                    <h4 align="center">Sample text. Click to select the text box. Click again or double click to start editing the text.
+                    </h4>
+                    <div class="input-data1">
+                        <input class="data" type="text" placeholder="Enter your Name">
+                        <input class="data" type="text" placeholder="Enter a valid email address">
+                        <input class="data" type="text" placeholder="Telephone Number">
+                    </div>
+                    <div class="input-data2">
+                        <textarea  class="comment">   Enter your massage</textarea>
+                    </div><br>
+                    <div class="submit-button">
+                        <input class="sub" type="submit" value="Sign Up">
+                    </div>
+                    <div class="text1"><center>
+                        <div class="text" align="center">Image from
+                            <a href="www.freepik.com">Freepik</a>
+                        </div></center>
+                    </div>
+                </form></center>
+       </div>
+    </div>
+    </div>
+    <!--picture-->
+    <!--last-white-line-->
+    <div class="last-white-line"></div>
+    <!--last-white-line-->
+
+    <!--form-->
+
+    <!--form-->
+    <!--last bar section-->
+    <div class="last-bar-main-outer">
+        <div class="last-line1 inner">
+            <div class="before-last">
+                <small class="text1" >Sample text. Click to select the text box. Click again or double click to start editing the text.
+                </small>
+            </div>
+        </div>
+    </div>
+    <div class="last-bar-main-outer">
+        <div class="last-line1 inner">
+            <div class="last">
+                <a href="#" class="link">Website Templates </a><small class="between">created with</small>
+                <a href="#" class="link">Website builder Software.</a>
+            </div>
+        </div>
+    </div>
+    <!--last bar section-->
+    <script src="https://kit.fontawesome.com/0b104e983b.js" crossorigin="anonymous"></script>
+</body>
+</html>

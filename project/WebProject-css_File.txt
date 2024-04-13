@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Montserrat+Subrayada&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Montserrat+Subrayada&family=Roboto+Condensed&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------top bar section------------------*/
+.top-bar-main-outer{
+    width:100%;
+    height: 80px;
+    display: flex;
+    padding: 0 50px;
+}
+.top-bar-inner{
+    flex: 1;
+}
+.image{
+    width: 65px;
+    display: flex;
+    padding: 30px 0 0 0;
+}
+.image:hover{
+    cursor: pointer;
+}
+.icon1{
+    width: 100%;
+    display: flex;
+    margin: 30px 0px;
+    justify-content: flex-end;
+}
+.icon1:hover{
+    cursor: pointer;
+    color:#ee5253 ;
+}
+/*------------------------------top bar section-------------------*/
+
+
+/*---------------------------second bar section--------------------*/
+.second-bar-main-outer{
+    width:100%;
+    height: 1000px;
+    display: flex;
+    padding: 0 50px;
+}
+.second{
+    flex: 1;
+}
+.second-box2{
+    background-color:#f1c40f ;
+}
+.ani1{
+    padding: 70px 0 0 0;
+}
+.img1{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.img1{
+    animation: imgAnimation1 10s infinite linear;
+}
+@keyframes imgAnimation1 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:380px
+    }
+
+}
+
+.ani2{
+    padding: 400px 0 0 0;
+}
+.img2{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.img2{
+    animation: imgAnimation2 10s infinite linear;
+}
+@keyframes imgAnimation2 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:380px
+    }
+
+}
+/*------------------------------second bar section----------------*/
+
+
+/*--------------------------third section bar-----------------------*/
+.description{
+    width:100%;
+    height: 100px;
+
+    display: flex;
+    padding: 0 500px;
+}
+.description1{
+
+}
+.description1 h2{
+    color: #273c75;
+    font-weight: bold;
+    font-size:36px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.description1:hover{
+    cursor: text;
+}
+/*----------------------third section bar--------------------------*/
+
+
+/*--------------------------------fourth section bar----------------*/
+.description2{
+    width:100%;
+    height: 50px;
+    display: flex;
+    padding: 0 50px;
+}
+.line2{
+    color: black;
+    font-weight: normal;
+    font-size:16px;
+    padding: 0 20%;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*--------------------------fourth section bar-------------------*/
+
+
+/*-------------------------------blue line-----------------------*/
+.blue-box{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    padding: 0 50px;
+    background-color: #2c3e50;
+}
+.side{
+    flex:1;
+    margin: 300px 0 300px 0;
+    background-color: #2c3e50;
+}
+.p1{
+    font-family:'Montserrat Alternates', sans-serif;
+    color: white;
+}
+.p2{
+    color: white;
+    font-family:'Open Sans',sans-serif ;
+    font-size: 44px;
+}
+.p3{
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    line-height: 240%;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-weight: initial;
+}
+.side{
+    padding: 30px 30px 0 50px;
+    text-align: justify;
+}
+.heading{
+    color: white;
+    font-family:'Open Sans',sans-serif ;
+    font-size: 26px;
+}
+.prace{
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 18px;
+    line-height: 230%;
+    word-spacing: 5px;
+}
+/*-----------------------------blue line------------------*/
+
+
+/*-----------------------------white1--------------------*/
+.white1{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    padding: 0 50px;
+}
+/*-----------------------------white1--------------------*/
+/*-----------------------------embedded--------------------*/
+.embedded{
+    width:100% ;
+    height: 400px;
+    margin:0!important;
+    padding: 0;
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*-----------------------------embedded--------------------*/
+/*--------------------------about company------------------*/
+.about {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding: 0 100px 0 0;
+    background-color: #f1c40f;
+}
+.image-1{
+    padding: 100px 0 0 0;
+}
+.image1{
+    position: absolute;
+    height: 500px;
+    width: 470px;
+    right: 530px;
+    border-radius: 20px;
+}
+.image1{
+    animation: imageAnimation 10s infinite linear;
+}
+@keyframes imageAnimation {
+    from{
+        left: -200px;
+    }
+    to{
+
+    }
+
+}
+.box{
+    flex: 1;
+    width: 100%;
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color:#2c3e50;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color:#f1c40f;
+
+}
+.titleText{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin: 0 0 0 100px;
+}
+.title{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    padding: 90px ;
+}
+.bodyText{
+    width: 100%;
+    height: 300px;
+}
+.bodyText p{
+    text-align: justify;
+    padding: 20px 10px 0 193px;
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif ;
+    line-height: 240%;
+
+}
+.bodyText a{
+    color: black;
+}
+/*-----------------------about company------------------------*/
+
+/*-----------------------white2------------------------*/
+.space{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+/*-----------------------white2------------------------*/
+/*-----------------------yellow1------------------------*/
+.yline{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #f1c40f;
+}
+
+/*-----------------------yellow1------------------------*/
+
+/*-----------------------white3------------------------*/
+.space1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+/*-----------------------white3------------------------*/
+/*-----------------------yellow2------------------------*/
+.yline1{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    background-color: #f1c40f;
+}
+
+/*-----------------------yellow2------------------------*/
+
+/*-----------------------white4------------------------*/
+.space2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+/*-----------------------white4------------------------*/
+
+/*-------------------------service----------------------*/
+.service{
+    width:100% ;
+    height: 1600px;
+    display: flex;
+    margin: 0;
+}
+.service-images1{
+    position: absolute;
+    right: 200px;
+    padding: 50px 0;
+}
+.img-1{
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+}
+.service-images1{
+    animation: serviceAnimation1 10s infinite linear;
+}
+@keyframes serviceAnimation1 {
+    from{
+        left: -200px;
+    }
+    to{
+        right: 300px;
+    }
+
+}
+
+.service-images2{
+    position: absolute;
+    left: 300px;
+    padding: 400px 0;
+}
+.img-2{
+    width: 500px;
+    height: 350px;
+    left:100px ;
+    border-radius: 20px;
+}
+.service-images2{
+    animation: serviceAnimation2 10s infinite linear;
+}
+@keyframes serviceAnimation2 {
+    from{
+        left: -200px;
+    }
+    to{
+        right: 400px;
+    }
+
+}
+
+.service-images3{
+    position: absolute;
+    left: 900px;
+    padding: 700px 0;
+}
+.img-3{
+    width: 300px;
+    height: 300px;
+    left:300px ;
+    border-radius: 20px;
+}
+.service-images3{
+    animation: serviceAnimation3 10s infinite linear;
+}
+@keyframes serviceAnimation3 {
+    from{
+        left: -200px;
+    }
+    to{
+        right: 100px;
+    }
+
+}
+
+.service-description{
+    width: 500px;
+    height: 400px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    left: 300px;
+    top: 1100%;
+}
+.description1{
+    width: 500px;
+    height: 50px;
+    font-family:'Cairo', sans-serif;
+    padding: 1px 0 0;
+}
+.description2{
+    width: 400px;
+    height: 150px;
+    font-family: Montserrat,sans-serif;
+}
+.description3{
+    width: 500px;
+    height: 40px;
+    padding: 5px 30px 5px 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.button{
+    width: 500px;
+    height: 50px;
+    padding: 5px 30px 5px 30px;
+}
+.button input{
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color:#2c3e50 ;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.button input:hover{
+    background-color:#f1c40f ;
+    color: black;
+}
+
+.service-description{
+    animation: serviceAnimation4 10s infinite linear;
+}
+@keyframes serviceAnimation4 {
+    from{
+        left: -200px;
+    }
+    to{
+        right: 500px;
+    }
+
+}
+.boxx{
+    flex: 1;
+}
+.yellow-box{
+    background-color:#f1c40f ;
+}
+/*---------------------------service----------------------*/
+/*----------------------------picture----------------------*/
+.large-picture{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.larg-image{
+    width: 100%;
+}
+/*----------------------------picture----------------------*/
+/*-----------------------last-white-line--------------------*/
+.last-white-line{
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+/*-----------------------last-white-line--------------------*/
+
+/*---------------------------form---------------------------*/
+.form1{
+    width: 903px;
+    height: 560px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    left: 300px;
+    top: 1300%;
+}
+.form1 h2{
+    width: 900px;
+    height: 60px;
+    font-family: Montserrat,sans-serif ;
+    font-size: 34px;
+    padding: 10px 0;
+}
+.form1 h4{
+    width: 900px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.input-data1 {
+    width: 900px;
+    height: 70px;
+}
+.data{
+    width: 293px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#dfe6e9 ;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+.input-data2{
+    width: 900px;
+    height: 200px;
+}
+.comment{
+    width: 900px;
+    height: 200px;
+    border-radius: 25px;
+    background-color:#dfe6e9 ;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+.submit-button{
+    width: 900px;
+    height: 80px;
+}
+.sub{
+    width: 900px;
+    height: 60px;
+    border-radius: 20px;
+    background-color:#f1c40f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+.sub:hover{
+    background-color: #2c3e50;
+    color: white;
+}
+.text1{
+    width: 900px;
+    height: 40px;
+}
+.text{
+    width: 200px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text a{
+    color: black;
+
+}
+
+.form1{
+    animation: formAnimation 10s infinite linear;
+}
+@keyframes formAnimation {
+    from{
+        left: -200px;
+    }
+    to{
+        right: 300px;
+    }
+
+}
+/*-------------------------form----------------------------*/
+/*-----------------------last bar section---------------------*/
+.last-bar-main-outer{
+    width:100%;
+    height: 150px;
+    display: flex;
+    padding: 0 50px;
+    background-color: black;
+}
+.inner{
+    flex: 1;
+    padding: 0 50px;
+}
+.text1{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.before-last{
+    text-align: center;
+    margin: 50px 0 0 0 ;
+}
+.link{
+    font-size: 16px;
+    color: #70a1ff;
+    vertical-align: middle;
+}
+.between{
+    color: white;
+    font-size: 16px;
+}
+.last{
+    text-align: center;
+    margin: 50px 0 0 0 ;
+
+}
+/*----------------------last section bar-----------------------*/

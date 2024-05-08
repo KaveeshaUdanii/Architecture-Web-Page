@@ -1,0 +1,1230 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Montserrat+Subrayada&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Montserrat+Alternates&family=Montserrat+Subrayada&family=Roboto+Condensed&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------top bar section------------------*/
+.top-bar-main-outer{
+    width:100%;
+    height: 80px;
+    display: flex;
+}
+.top-bar-inner{
+    flex: 1;
+
+}
+.image{
+    width: 65px;
+    display: flex;
+    padding: 30px 0 0 60px;
+
+}
+.image:hover{
+    cursor: pointer;
+}
+.icon{
+    padding: 5px 30px 5px 0;
+}
+.icon1{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 30px 0px;
+    justify-content: flex-end;
+}
+.icon1:hover{
+    cursor: pointer;
+    color:#ee5253 ;
+}
+/*------------------------------top bar section-------------------*/
+
+
+/*---------------------------second bar section--------------------*/
+.second-bar-main-outer{
+    width:100%;
+    height: 1250px;
+    display: flex;
+
+}
+.second{
+    flex: 1;
+
+
+}
+.second-box2{
+}
+.ybox{
+    width: 672px;
+    height: 1245px;
+    background-color:#f1c40f ;
+    position: relative;
+    overflow: hidden;
+
+}
+.ybox{
+    animation: yboxAnimation1 10s infinite linear;
+}
+@keyframes yboxAnimation1 {
+    from{
+        top: -500px;
+    }
+    to{
+        top:5px
+    }
+
+}
+.ani1{
+    padding: 70px 0 0 0;
+
+}
+.img1{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 2;
+
+}
+
+.img1{
+    animation: imgAnimation1 10s infinite linear;
+}
+@keyframes imgAnimation1 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:380px
+    }
+
+}
+
+.ani2{
+    padding: 400px 0 0 0;
+}
+.img2{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+.img2{
+    animation: imgAnimation2 10s infinite linear;
+}
+@keyframes imgAnimation2 {
+    from{
+        right: -200px;
+    }
+    to{
+        right:300px
+    }
+
+}
+.ani3{
+    padding: 650px 0 0 0;
+
+}
+.img3{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+
+.img3{
+    animation: imgAnimation3 10s infinite linear;
+}
+@keyframes imgAnimation3 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:240px
+    }
+
+}
+.info1{
+    padding: 800px 0 0 0;
+}
+.fboxx{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    padding: 0 0 0 50px;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+.s1{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 22px;
+}
+.s2{
+    width: 100%;
+    height: 200px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.s3{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+
+}
+.s3 a{
+    color: black;
+}
+.s4{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+}
+.fboxx{
+    animation: fboxxAnimation3 10s infinite linear;
+}
+@keyframes fboxxAnimation3 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:600px
+    }
+
+}
+/*------------------------------second bar section----------------*/
+
+
+/*--------------------------third section bar-----------------------*/
+.my-description1{
+    width:100%;
+    height: 100px;
+    display: flex;
+}
+.description1{
+    padding: 10px 0 0 200px;
+}
+.description1 h2{
+    width: 100%;
+    color: #273c75;
+    font-weight: bold;
+    font-size:38px;
+    font-family: 'Cairo', sans-serif;
+    padding: 10px 0 0 300px;
+
+}
+.description1:hover{
+    cursor: text;
+}
+/*----------------------third section bar--------------------------*/
+
+/*--------------------------------fourth section bar----------------*/
+.my-description2{
+    width:100%;
+    height: 200px;
+    display: flex;
+}
+.description2{
+
+}
+.descriptionn2 small{
+    width: 100%;
+    color: black;
+    font-weight: normal;
+    font-size:19px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 0 0 390px;
+}
+/*--------------------------fourth section bar-------------------*/
+
+/*-------------------------------blue line-----------------------*/
+.blue-box{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    background-color: #2c3e50;
+
+}
+.bbox{
+    width: 200px;
+    height: 270px;
+    /*position: absolute;*/
+    top:250%;
+}
+.Btitle{
+    color: black;
+    background-color: white;
+    height: 40px;
+    font-family:'Montserrat Alternates', sans-serif;
+    font-size: 23px;
+}
+.Bdes{
+    color: black;
+    background-color: white;
+    height: 150px;
+    font-family:'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 200%;
+}
+.box01{
+    height: 70px;
+    background-color: #f1c40f;
+}
+.b-box4{
+    height: 70px;
+    background-color: #f1c40f;
+}
+.bouter{
+    width: 80px;
+    height: 60px;
+    font-size: 46px;
+    padding: 8px 0 0 20px;
+}
+.bimg1{
+    width:70px ;
+    height: 50px;
+    padding: 8px 5px 5px 8px;
+}
+.side{
+    flex:1;
+    margin: 250px 0 300px 0;
+    background-color: #2c3e50;
+
+}
+.p-1{
+    font-family:'Montserrat Alternates', sans-serif;
+    color: white;
+
+}
+.p-2{
+    color: white;
+    font-family:'Open Sans',sans-serif ;
+    font-size: 44px;
+
+}
+.p-3{
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    line-height: 240%;
+    word-spacing: 5px;
+    font-size: 18px;
+    font-weight: initial;
+
+}
+.side{
+    padding: 30px 30px 0 50px;
+    text-align: justify;
+
+}
+.heading{
+    color: white;
+    font-family:'Open Sans',sans-serif ;
+    font-size: 26px;
+
+}
+.prace{
+    color: white;
+    font-family:'Ubuntu', sans-serif ;
+    font-size: 18px;
+    line-height: 230%;
+    word-spacing: 5px;
+
+}
+.l-button{
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color:#f1c40f;
+    font-weight: bold;
+}
+.l-button:hover{
+    background-color: white;
+}
+.bbox{
+    animation: bboxAnimation4 10s infinite linear;
+}
+@keyframes bboxAnimation4 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:900px
+    }
+
+}
+/*-----------------------------blue line------------------*/
+
+
+/*-----------------------------white1--------------------*/
+.white1{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.yellow-line{
+    width: 800px;
+    height: 350px;
+    padding: 250px 0 0 300px;
+}
+.yellow-boxx{
+    width: 1047px;
+    height: 350px;
+    background-color: #f1c40f;
+}
+.pic{
+    width: 600px;
+    height: 500px;
+}
+.img4{
+    width: 640px;
+    height: 540px;
+    position: absolute;
+    border-radius: 20px;
+    top: 410%;
+}
+
+.img4{
+    animation: imgAnimation4 10s infinite linear;
+}
+@keyframes imgAnimation4 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:220px
+    }
+
+}
+
+.info-3{
+    padding: 200px 0 0 0;
+}
+.dboxx{
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    background-color: white;
+    padding: 0 0 0 50px;
+    border-radius: 20px;
+}
+.d1{
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 39px;
+}
+.d2{
+    width: 100%;
+    height: 200px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 19px;
+    line-height: 200%;
+}
+.d3{
+    width: 100%;
+    height: 70px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 19px;
+}
+.d3 a{
+    color: black;
+}
+.d4{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+}
+.dboxx{
+    animation: info-3Animation 10s infinite linear;
+}
+@keyframes info-3Animation {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 600px;
+    }
+
+}
+/*-----------------------------white1--------------------*/
+
+/*--------------------------about company------------------*/
+.about {
+    width: 100%;
+    height: 700px;
+    display: flex;
+
+    background-color: #f1c40f;
+
+}
+.image-1{
+    padding: 100px 0 0 0;
+
+}
+.image1{
+    position: absolute;
+    height: 500px;
+    width: 470px;
+    right: 530px;
+    border-radius: 20px;
+
+}
+.image1{
+    animation: imageAnimation 10s infinite linear;
+}
+@keyframes imageAnimation {
+    from{
+        left: -200px;
+    }
+    to{
+
+    }
+
+}
+.box{
+    flex: 1;
+    width: 100%;
+
+}
+.box1{
+    width: 100%;
+    height: 100%;
+    background-color:#2c3e50;
+
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    background-color:#f1c40f;
+
+
+}
+.titleText{
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+.title{
+    padding: 10px 0 5px 200px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+
+}
+.bodyText{
+    width: 100%;
+    height: 300px;
+
+}
+.bodyText p{
+    text-align: justify;
+    padding: 20px 10px 0 193px;
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif ;
+    line-height: 240%;
+
+
+}
+.bodyText a{
+    color: black;
+}
+.button{
+    height: 45px;
+}
+.inp{
+    padding: 0 0 0 30px;
+    border: 1px solid black;
+    justify-content: flex-start;
+}
+.button input{
+    height: 40px;
+    width: 120px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#2c3e50 ;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.button input:hover{
+    border: none;
+    background-color:#f1c40f ;
+    color: black;
+}
+/*-----------------------about company------------------------*/
+
+/*-----------------------------white2--------------------*/
+.white2{
+    width:100% ;
+    height: 600px;
+    margin:0!important;
+    padding: 0;
+
+}
+.sbox{
+    display: flex;
+    flex-direction: column;
+}
+.img5{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    padding: 103px 0 0 0;
+}
+.img5{
+    animation: img5Animation 10s infinite linear;
+}
+@keyframes img5Animation {
+    from{
+        left: -200px;
+    }
+    to{
+        left:650px;
+    }
+
+}
+.sbox1{
+    display: flex;
+    flex-direction: column;
+}
+.img6{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    padding: 360px 0 0 0;
+}
+.img6{
+    animation: img6Animation 10s infinite linear;
+}
+@keyframes img6Animation {
+    from{
+        left: -200px;
+    }
+    to{
+        left:100px;
+    }
+
+}
+.sbox2{
+    display: flex;
+    flex-direction: column;
+    padding: 500px 0 0 0;
+
+}
+.img7{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border: 15px solid white;
+    border-radius: 300px;
+}
+.img7{
+    animation: img7Animation 10s infinite linear;
+}
+@keyframes img7Animation {
+    from{
+        left: -200px;
+    }
+    to{
+        left:300px;
+    }
+
+}
+.info{
+    padding: 40px 0 0 0;
+}
+.wboxx{
+    width: 500px;
+    height: 620px;
+    position: absolute;
+    background-color: white;
+    padding: 0 0 0 50px;
+}
+.p1{
+    width: 100%;
+    height: 150px;
+    padding: 10px 0 0 0;
+}
+.img8{
+    width: 120px;
+    height: 120px;
+    background-color: #f1c40f;
+    border-radius: 300px;
+    padding: 5px 5px 5px 5px;
+}
+.p2{
+    width: 100%;
+    height: 130px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 39px;
+}
+.p3{
+    width: 100%;
+    height: 200px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 19px;
+    line-height: 200%;
+}
+.p4{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 19px;
+}
+.p4 a{
+    color: black;
+}
+.p5{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+}
+.in{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:#2c3e50 ;
+    color: white;
+    font-size: 17px;
+}
+.in:hover{
+    background-color: #f1c40f;
+    color: black;
+}
+.wboxx{
+    animation: wboxxAnimation 10s infinite linear;
+}
+@keyframes wboxxAnimation {
+    from{
+        left: -200px;
+    }
+    to{
+        left:740px;
+    }
+
+}
+/*-----------------------------white2--------------------*/
+
+
+/*-----------------------yellow1------------------------*/
+.yline{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #f1c40f;
+
+}
+
+/*-----------------------yellow1------------------------*/
+
+/*-----------------------white3------------------------*/
+.space1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+
+}
+/*-----------------------white3------------------------*/
+/*-----------------------yellow2------------------------*/
+.yline1{
+    width: 100%;
+    height: 320px;
+    display: flex;
+
+}
+.cutting{
+    width: 100%;
+    display: flex;
+    background-color: #f1c40f;
+}
+.img9{
+    width: 500px;
+    height: 560px;
+    position: absolute;
+    top: 910%;
+    border-radius: 20px;
+}
+.img9{
+    animation: img9Animation 10s infinite linear;
+}
+@keyframes img9Animation {
+    from{
+        left:-200px;
+    }
+    to{
+        left:260px;
+    }
+
+}
+.add{
+    width: 100%;
+    display: flex;
+}
+
+.info4{
+    padding: 60px 0 0 100px;
+}
+.mboxx{
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    background-color: white;
+    padding: 0 0 0 50px;
+}
+
+.m1{
+    width: 100%;
+    height: 230px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    line-height: 55px;
+    font-size: 39px;
+}
+.m2{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 19px;
+    font-style: italic;
+}
+.m2 a{
+    color: black;
+}
+.m3{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+}
+.info4{
+    animation: info4Animation 10s infinite linear;
+}
+@keyframes info4Animation {
+    from{
+        right: 0;
+    }
+    to{
+        right: 100px;
+    }
+
+}
+/*-----------------------yellow2------------------------*/
+
+/*-----------------------white4------------------------*/
+.space2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.blue-desc{
+    width: 400px;
+    height: 460px;
+    background-color:#2c3e50 ;
+    position: absolute;
+    border-radius: 20px;
+    top: 956%;
+}
+.blue1{
+    width: 100%;
+    height:99px;
+}
+.icon-1 i{
+    width: 100px;
+    height: 83px;
+    color: gold;
+    font-size: 63px;
+    padding: 15px 0 0 20px;
+}
+.blue2{
+    width: 100%;
+    height: 238px;
+}
+.f1{
+    padding: 0 0 0 30px;
+}
+.blue2 font{
+    color: white;
+    font-size: 29px;
+    font-family: 'Open Sans',sans-serif ;
+    line-height: 210%;
+}
+.blue3{
+    width: 100%;
+    height: 60px;
+}
+.f2{
+    padding: 0 0 0 170px;
+}
+.blue3 font{
+    color: white;
+    font-size: 21px;
+    font-family: 'Open Sans',sans-serif ;
+    line-height: 210%;
+}
+.blue-desc{
+    animation: blue-desc-Animation1 10s infinite linear;
+}
+@keyframes blue-desc-Animation1 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 70px;
+    }
+
+}
+/*-----------------------white4------------------------*/
+
+/*-------------------------service----------------------*/
+.service{
+    width:100% ;
+    height: 1350px;
+    display: flex;
+    margin: 0;
+
+}
+.service-images1{
+
+    padding: 70px 0 0 0;
+
+}
+.img-1{
+    width: 640px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+
+}
+.img-1{
+    animation: serviceAnimation1 10s infinite linear;
+}
+@keyframes serviceAnimation1 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 600px;
+    }
+
+}
+
+.service-images2{
+    padding: 400px 0;
+}
+.img-2{
+    width: 500px;
+    height: 350px;
+    left:100px ;
+    border-radius: 20px;
+    position: absolute;
+}
+.img-2{
+    animation: serviceAnimation2 10s infinite linear;
+}
+@keyframes serviceAnimation2 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 350px;
+    }
+
+}
+
+.service-images3{
+    padding: 700px 0;
+}
+.img-3{
+    width: 360px;
+    height: 350px;
+    left:300px ;
+    border-radius: 20px;
+    position: absolute;
+}
+.img-3{
+    animation: serviceAnimation3 10s infinite linear;
+}
+@keyframes serviceAnimation3 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 950px;
+    }
+
+}
+.info5{
+    padding: 870px 0 0 0;
+}
+.hboxx{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    padding: 0 0 0 50px;
+    border-radius: 20px;
+}
+.h1{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 22px;
+}
+.h2{
+    width: 100%;
+    height: 200px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+    font-size: 37px;
+    font-weight: bold;
+
+}
+.h3{
+    width: 100%;
+    height: 30px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+
+}
+.h3 a{
+    color: black;
+}
+.h4{
+    width: 100%;
+    height: 50px;
+    padding: 10px 0 0 0;
+    color: black;
+    font-family: 'Open Sans',sans-serif ;
+}
+.hboxx{
+    animation: hboxxAnimation3 10s infinite linear;
+}
+@keyframes hboxxAnimation3 {
+    from{
+        left: -200px;
+    }
+    to{
+        left:350px
+    }
+
+}
+
+.boxx{
+    flex: 1;
+}
+.yellow-box{
+    background-color:#f1c40f ;
+}
+/*---------------------------service----------------------*/
+/*----------------------------picture----------------------*/
+.large-picture{
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+.larg-image{
+    width: 100%;
+
+}
+.my-form{
+    padding: 500px 0 0 0;
+}
+.form1{
+    width: 903px;
+    height: 560px;
+    background-color:white;
+    border-radius: 20px;
+    position: absolute;
+    left: 300px;
+}
+.form1 h2{
+    width: 900px;
+    height: 60px;
+    font-family: Montserrat,sans-serif ;
+    font-size: 34px;
+    padding: 10px 0;
+}
+.form1 h4{
+    width: 900px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+.input-data1 {
+    width: 900px;
+    height: 70px;
+}
+.data{
+    width: 293px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#dfe6e9 ;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+.input-data2{
+    width: 900px;
+    height: 200px;
+}
+.comment{
+    width: 900px;
+    height: 200px;
+    border-radius: 25px;
+    background-color:#dfe6e9 ;
+    font-family: 'Ubuntu', sans-serif;
+    border: none;
+}
+.submit-button{
+    width: 900px;
+    height: 80px;
+}
+.sub{
+    width: 900px;
+    height: 60px;
+    border-radius: 20px;
+    background-color:#f1c40f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+.sub:hover{
+    background-color: #2c3e50;
+    color: white;
+}
+.text1{
+    width: 900px;
+    height: 40px;
+}
+.text{
+    width: 200px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text a{
+    color: black;
+
+}
+
+.form1{
+    animation: formAnimation 10s infinite linear;
+}
+@keyframes formAnimation {
+    from {
+        left: -200px;
+    }
+    to {
+        right: 300px;
+    }
+}
+/*----------------------------picture----------------------*/
+/*-----------------------last-white-line--------------------*/
+.last-white-line{
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+/*-----------------------last-white-line--------------------*/
+
+/*-----------------------last bar section---------------------*/
+.last-bar-main-outer{
+    width:100%;
+    height: 150px;
+    display: flex;
+
+    background-color: black;
+
+}
+.inner{
+    flex: 1;
+    padding: 0 50px;
+
+}
+.text1{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.before-last{
+    text-align: center;
+    margin: 50px 0 0 0 ;
+
+}
+.link{
+    font-size: 16px;
+    color: #70a1ff;
+    vertical-align: middle;
+
+}
+.between{
+    color: white;
+    font-size: 16px;
+
+}
+.last{
+    text-align: center;
+    margin: 50px 0 0 0 ;
+
+
+}
+/*----------------------last section bar-----------------------*/
